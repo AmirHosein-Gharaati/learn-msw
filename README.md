@@ -6,6 +6,12 @@ Mock Service Worker (MSW) to check how it works.
 The project implemented using React, but MSW works for all
 types of frameworks.
 
+## Learn From Article
+
+You can learn MSW from this article and check the project codes beside it:
+
+https://medium.com/@AG1380/using-mock-service-worker-for-front-end-with-typescript-5537e501bcad
+
 ## Usage
 
 Clone the repo and install packages with yarn:
