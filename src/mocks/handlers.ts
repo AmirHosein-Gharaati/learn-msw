@@ -1,11 +1,3 @@
-import { rest } from "msw";
+import helloHandler from "./modules/hello";
 
-export const handlers = [
-  rest.get("/hello", (req, res, ctx) => {
-    return res(
-      ctx.json({
-        response: "Hello World from mock API",
-      })
-    );
-  }),
-];
+export const handlers = [...helloHandler];
